@@ -14,12 +14,13 @@ html, body {
     margin: 0;
     align-items: center;
     padding: 25px 0px;
+    width: 100%;
     /* display: block; */
     /* background-color: #BFA78A; */
 }
-/* th {
-    border: #333 2px solid;
-} */
+.table th {
+    width: 200px;
+}
 .opening {
     width: 100%;
 }
@@ -45,6 +46,7 @@ html, body {
 }
 .assign {
     display: flex;
+    padding-top: 10px;
 }
 .assign span a{
     padding: 0px 5px;
@@ -63,6 +65,7 @@ html, body {
         margin-left: auto;
         order: -1;
         font-size: 10px;
+        margin-bottom: 10px;
     }
     .header h1 a {
         margin: 7px;
@@ -73,5 +76,8 @@ html, body {
     .table a {
         font-size: 13px;
     }
-
+    
+    .table {
+        padding: 15px 0px;
+    }
 }
